@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { generateEnterpriseAdvice } from '../services/geminiService';
-import { Briefcase, FileWarning, Shredder, ShieldCheck } from 'lucide-react';
+import { Briefcase, FileWarning, Trash2, ShieldCheck } from 'lucide-react';
 
 export const Enterprise: React.FC = () => {
   const [issue, setIssue] = useState('');
@@ -69,7 +69,7 @@ export const Enterprise: React.FC = () => {
              <div className="mt-6 pt-6 border-t border-zinc-800 flex justify-between items-center">
                 <span className="text-sm text-zinc-500">Data Retention Policy</span>
                 <button className="flex items-center gap-2 text-zinc-400 hover:text-red-500 text-sm font-bold transition-colors" onClick={() => alert("All logs deleted from server.")}>
-                  <Shredder size={16} /> Purge Records
+                  <Trash2 size={16} /> Purge Records
                 </button>
              </div>
           </div>
