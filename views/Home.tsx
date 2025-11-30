@@ -120,7 +120,7 @@ export const Home: React.FC<HomeProps> = ({ setView }) => {
                {/* Yi Long Ma */}
                <div className="bg-zinc-900 p-8 rounded-2xl border border-zinc-800 hover:-translate-y-2 transition-transform">
                   <div className="flex items-center gap-4 mb-6">
-                     <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=YiLongMa&topType=ShortHairShortFlat&hairColor=Black&skinColor=Light" alt="Yi Long Ma" className="w-16 h-16 rounded-full bg-zinc-800 border-2 border-yellow-400 p-1" />
+                     <img src="https://avatars.cloudflare.steamstatic.com/133b794a1bde24317cd657dca53fe574d487ffc4_full.jpg" alt="Yi Long Ma" className="w-16 h-16 rounded-full bg-zinc-800 border-2 border-yellow-400 p-1" />
                      <div>
                         <div className="font-bold text-lg text-white">Yi Long Ma</div>
                         <div className="text-xs text-yellow-500 uppercase font-bold">Tech Innovator</div>
@@ -149,7 +149,7 @@ export const Home: React.FC<HomeProps> = ({ setView }) => {
                {/* SBF */}
                <div className="bg-zinc-900 p-8 rounded-2xl border border-zinc-800 hover:-translate-y-2 transition-transform">
                   <div className="flex items-center gap-4 mb-6">
-                     <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Sam&topType=LongHairCurley&hairColor=Black&accessories=Round" alt="S. Bankman-Fried" className="w-16 h-16 rounded-full bg-zinc-800 border-2 border-yellow-400 p-1" />
+                     <img src="https://coingape.com/wp-content/uploads/2023/03/1200x-1-16.jpg" alt="S. Bankman-Fried" className="w-16 h-16 rounded-full bg-zinc-800 border-2 border-yellow-400 p-1" />
                      <div>
                         <div className="font-bold text-lg text-white">Sam B. Fried</div>
                         <div className="text-xs text-yellow-500 uppercase font-bold">Effective Altruist</div>
