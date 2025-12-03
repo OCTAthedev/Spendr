@@ -29,7 +29,7 @@ const MatrixRain = () => {
     const fontSize = 14;
     const columns = Math.floor(canvas.width / fontSize);
     const drops = new Array(columns).fill(1);
-    const chars = "01$€£¥%#&@"; 
+    const chars = "01$€£¥%#&@MUIEDINAMO"; 
 
     const draw = () => {
       // Semi-transparent black to create trail effect
