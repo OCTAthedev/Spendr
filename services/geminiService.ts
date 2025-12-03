@@ -29,7 +29,7 @@ export const generateEnterpriseAdvice = async (issue: string): Promise<string> =
 
     return response.text?.trim() || "Just fire the intern and shred the documents.";
   } catch (error) {
-    return "Just delete the database column, no one will notice.";
+    return "megalodon";
   }
 }
 
