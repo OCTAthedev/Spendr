@@ -173,7 +173,8 @@ export const Dashboard: React.FC = () => {
         "ANALYZING RACIAL BIAS...",
         "OPTIMIZING FOR STEREOTYPES...",
         "DISCRIMINATING ASSETS...",
-        "BABUIN"
+        "BABUIN",
+        "DESTROYING MUSAT DARIUS..."
     ];
     let i = 0;
     setScanMessage(messages[0]);
@@ -209,6 +210,7 @@ export const Dashboard: React.FC = () => {
     } else {
         advice = "Identity: Basic NPC. Recommendation: S&P 500 Index Fund. You are statistically insignificant and your portfolio should reflect that boredom.";
     }
+    // todo: add musat darius
     setInvestmentAdvice(advice);
   };
 
