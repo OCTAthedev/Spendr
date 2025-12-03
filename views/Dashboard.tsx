@@ -144,6 +144,7 @@ export const Dashboard: React.FC = () => {
      if (type === 'height') {
          if (val < 30) return "5'4\" (Short King)";
          if (val < 70) return "5'9\" (Average)";
+         if (val < 75) return "Mamut";
          return "6'5\" (Executive)";
      }
      if (type === 'heritage') {
@@ -171,7 +172,8 @@ export const Dashboard: React.FC = () => {
         "CHECKING 23ANDME LEAKS...", 
         "ANALYZING RACIAL BIAS...",
         "OPTIMIZING FOR STEREOTYPES...",
-        "DISCRIMINATING ASSETS..."
+        "DISCRIMINATING ASSETS...",
+        "BABUIN"
     ];
     let i = 0;
     setScanMessage(messages[0]);
